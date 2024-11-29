@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneos Míticos - Mobile Legends</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Torneos Míticos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#torneos">Torneos</a></li>
+                <li><a href="#premios">Premios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <h2>¡Compite en los torneos más épicos de Mobile Legends!</h2>
+            <p>Exclusivo para jugadores de rango Mítico.</p>
+            <a href="#torneos" class="btn">Ver Torneos</a>
+        </section>
+        <section id="torneos">
+            <h2>Próximos Torneos</h2>
+            <div class="tournament-card">
+                <h3>Nombre del Torneo</h3>
+                <p>Fecha: 15 de diciembre</p>
+                <p>Inscripción: Gratuita</p>
+                <a href="#" class="btn">Inscribirse</a>
+            </div>
+        </section>
+        <section id="premios">
+            <h2>Premios</h2>
+            <ul>
+                <li>💎 1000 Diamantes Mobile Legends</li>
+                <li>🏆 Trofeo Digital</li>
+                <li>📣 Reconocimiento en Redes Sociales</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Torneos Míticos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
