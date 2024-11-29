@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1b263b;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    color: #e63946;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: #a8dadc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-image: url('mobile-legends-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+section {
+    padding: 2rem 2rem;
+}
+
+.tournament-card {
+    background-color: #1b263b;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #1b263b;
+}
